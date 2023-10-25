@@ -2,3 +2,74 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+/* Apply CSS styles to the header */
+h1 {
+	text-align: center;
+	color: #333;
+	margin: 20px 0;
+  }
+  
+  /* Apply styles to the list of books */
+  #list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+  }
+  
+  #list li {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  #list li:hover {
+	background-color: #3498db;
+	color: white;
+  }
+  
+  /* Apply styles to the book details panel */
+  #show-panel {
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  #show-panel img {
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px 0;
+  }
+  
+  #show-panel button {
+	background-color: #3498db;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  #show-panel button:hover {
+	background-color: #2578a9;
+  }
+  
+  /* Apply styles to the list of users who liked the book */
+  #show-panel ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  #show-panel ul li {
+	margin: 5px 0;
+  }
+  
